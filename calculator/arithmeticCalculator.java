@@ -1,14 +1,10 @@
-package week1;
+package calculator;
 
 import java.util.Scanner;
-import java.io.*;
-import java.lang.*;
-import java.lang.Math;
-
 
 public class arithmeticCalculator {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
 		System.out.println("Arithmetic Calculator");
 		System.out.println("---------------------");
@@ -56,6 +52,5 @@ public class arithmeticCalculator {
 			
 		}
 		
-		//System.out.println(a+" " +ch +" " +b+" = "+c);
 	}
 }
