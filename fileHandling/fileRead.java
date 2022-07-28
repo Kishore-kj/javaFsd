@@ -10,7 +10,7 @@ public class fileRead {
 		 char[] data=new char[100];
 		 
 		 try {
-			FileReader input=new FileReader("k:\\Data.txt");
+			FileReader input =new FileReader("k:\\Data.txt");
 			input.read(data);
 			System.out.println("Data is Read Successfully.");
 			System.out.println(data);
